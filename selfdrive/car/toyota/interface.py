@@ -324,7 +324,7 @@ class CarInterface(CarInterfaceBase):
       tire_stiffness_factor = 0.5533
       ret.mass = 4387. * CV.LB_TO_KG + STD_CARGO_KG
       ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.2], [0.05]]
-      ret.lateralTuning.pid.kf = 0.0000
+      ret.lateralTuning.pid.kf = 0.00006
 
     ret.steerRateCost = 1.
     ret.centerToFront = ret.wheelbase * 0.44
